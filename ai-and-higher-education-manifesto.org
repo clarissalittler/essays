@@ -1,0 +1,108 @@
+#+title:      AI and Higher Education Manifesto
+#+date:       [2025-09-23 Tue 16:49]
+#+filetags:   :education:llms:pcc:
+#+identifier: 20250923T164918
+
+* Draft 1
+** How we got to now
+We are now coming up on three years since gpt 3.5 was loosed upon the world, a version of the already shocking gpt-3 that could now be used, simply and easily, by anyone in the world for free.
+
+Since that moment, all knowledge work has been struggling with what this technology can do: the shifting Jagged Frontier of capabilities.
+
+Many of my peers are stuck in the belief that LLMs are a "glorified auto-complete", a "stochastic parrot" incapable of true reason.
+
+I want to argue that this isn't just /wrong/ but will in fact be actively detrimental to our careers, to higher education, to our student.
+
+The first lesson I want to get across is that LLMs do in fact /work/. Now, I do not agree with the kind of omnissiah-prophets declaring that soon we'll have superintelligent AI overlords who will rule eternal. But "LLMs are a dead end"---courtesy of Gary Marcus---or "LLMs are an existential threat to the world"---courtesy of Eliezer Yudkowsky---is a false dilemma.
+
+LLMs do in fact accomplish a number of tasks reliably and their domain of capabilities is consistently growing, accelerating even.
+
+For example, consider the recent research by [[https://metr.org/blog/2025-03-19-measuring-ai-ability-to-complete-long-tasks/][METR]] that shows the length of task that can be reliably performed is growing, for now, on an exponential curve: consistently doubling every 7 months for the last few years. Even if improvement hits a wall we're already dealing with models capable of performing work that would take a competent human a couple of hours to complete.
+
+We now have LLMs, multiple models from multiple labs, that are---among other things---capable of:
+ + performing better than most competitors in international coding and math competitions
+ + working autonomously for 20 or 30 minutes at a time researching essentially any topic and cross-referencing information for correctness
+ + finding technical flaws in research papers
+ + /extending/ papers in domains such as economics, mathematics, and computer science (possibly more but given the nature of the work these are the fields people have /tried/)
+
+Now how can this be when LLMs don't understand how to spell strawberry or get [insert cleverly misworded logic puzzle] wrong?
+
+Unfortunately, a lot of people's perspective on what LLMs are and do came in that first six months to a year of the research being made public or cherry-picked examples run in fairly unhelpful ways.
+
+There are two facts here I need to emphasize. The first is that the technology is changing extremely rapidly. Every few months there are new high water marks. We'll talk shortly about /what/ has been changing but will leave that alone for now. The second fact is that not all models are created equal. They have distinct differences in ability, reflecting tradeoffs in speed, size, working memory, and higher-order reasoning ability. Often, when you see examples that feel very /reassuring/ in that "oh, hah, this is dumb it's silly to think that LLMs can do anything right" way, you're actually looking at examples that have been done in a tricky way like using a small and less capable model, forcing a normally competent model to give an answer as fast as possible, or taking away the model's ability to check its work. These cause significant degradation to the power of the models! Now I want to be clear that I'm not anthropomorphizing the models but the comparison I'd make is if someone asked you a question and yelled in your face "don't think, just say it". You'd have difficulty remembering the right answer! 
+
+So whenever someone tries to show you a "haha look how bad this is" example of LLMs, make sure you know *how* it was run. It could be a very deceptive example!
+
+Or, and I cannot stress this enough, it could be one of the weird blindspots. Because LLMs have them! That's why the term "Jagged Frontier" (due, I believe, to Ethan Mollick) exists. Here's an example that is likely going to still hold six months from now: reading analog clocks. For reasons we don't entirely understand yet, despite the massive improvements in LLM technology that allows them to parse images and understand them similar to how they understand text, they cannot read analog clocks. They can identify plant species, parse street signs, and read even my own messy handwriting and yet they /cannot/ understand analog clocks, giving essentially random guesses at the time when asked to read a clockface.
+
+This is /weird/ and counterintuitive. Why is reading an analog clock harder for the machine than tasks that, in principle, feel much more complicated? This is where it's important to keep in mind that not only are these tools not living minds like you and I[fn:1] that even when they do things that look like thinking that thinking is extremely alien to us. Judging LLMs by what is "easy" vs. "difficult" for us is going to give you a bad sense of what they can do. They're simply too different. I can read a clock. I cannot, however, find and then scan several hundred pages of academic articles in ten minutes looking for the answer to a question.
+
+Now I think we need to talk a little bit more about /why/ LLMs have been improving and why we can, for the near future, expect them to keep improving: "reasoning" and "tool use".
+
+Talking about LLMs "reasoning" naturally will raise some hackles and even within the research community far too many electrons have been spilled writing about how "it doesn't think! this isn't thinking!!" which isn't, in my opinion, a very useful way to approach this technique. When we talk about "reasoning" models we're talking about a particular trick where the LLM will generate a "stream of consciousness" before returning an answer. If you read the "thinking" it will look a lot like you're reading a transcript of someone talking out loud to themselves. "Right, okay, the user needs [...] wait, do I need to worry about [...] This should be what they want, I'll apologize for the difficulty in finding an answer [...]" is an accurate representation of how the record of thinking reads. The weird part is that it's actually incredibly useful: it lets LLMs tackle problems of far greater complexity than if they aren't allowed to think.
+
+The second advancement, tool use, is part of what makes reasoning so powerful in models released post-March 2025. When we say "tool use" we mean the ability of the model to run various bits of code it's been given access to. Tools can include things like:
+ + opening a web browser
+ + conducting a web search
+ + opening a document
+ + writing code
+ + running code
+ + accessing a calendar
+ + and basically anything else that can be turned into small program
+
+The synergy between reasoning and tool use is that it's possible for reasoning models with tools to call the tools as /part/ of the reasoning process. So now models can, say, think through the problem that they're being asked, do web searches looking for answers, read the answers, think about how to double check the answer, do more searching/code writing/&c., and then after all of that finally return an answer.
+
+We're just now starting to grapple with what modern tool-using reasoning are capable of in recent research, such as the [[https://cdn.openai.com/pdf/d5eb7428-c4e9-4a33-bd86-86dd4bcf12ce/GDPval.pdf][GDPVal]] paper that shows that the best of these LLMs are now within close distance of parity with human experts on a tasks that would take roughly an entire workday for a competent person.
+
+These two interleaved techniques have also opened up a viable new track of LLM-based tools: agents.
+
+Agents/Agentic AI are often poorly defined but I'm fond of the definition "an agent is a tool-using AI that runs in a loop to accomplish a goal". Since agents are capable of not just reflecting on a "stream of consciousness" but also can see the results of their final decisions and actions, they are capable of accomplishing far more and varied tasks than a non-agentic system. Agents can break bigger tasks that would be impossible to do in one attempt into a series of sub-tasks and perform those individually, checking their work and hypotheses as they go.
+
+This is very IT/CS centered, but there's a new test called [[https://quesma.com/blog/introducing-compilebench/][Compilebench]] where a custom agentic system, with different LLM "brains" plugged into it, is tested for its ability to do a number of difficult and frustrating tasks that---in my experience---no programmers like doing and are boring time sinks. The best performing LLM accomplished 100% of the tasks when allowed up to three attempts to solve them, 90% of them if only allowed a single chance.
+
+With all of these improvements we've moved from "LLM with a chat interface" to "LLM equipped with tools able to perceive and modify the world". As such, I'm going to start calling these entire artifacts "LLM-based" AI systems rather than LLMs per se.
+** Where's the ceiling?
+A reasonable question to ask at this point would be "where is the ceiling to LLMs? will they keep improving?". Since that's /inherently/ a speculative question I will have to engage in speculation to answer it.
+
+First, we know that there are models better than anything currently benchmarked and tested publicly still being internally evaluated in some of the large private labs (e.g. Anthropic, OpenAI, DeepMind). So we know that there will be at least some significant improvements in capabilities for, say, the next six months as models like the ones that took gold in the International Math Olympiad become publicly available to use.
+
+But what if that's it? What if we suddenly hit a massive wall in ability and it never gets significantly better than "can solve problems that would take an expert or researcher a solid day to finish"?
+
+I ask this question in an intentionally provocative way: if the base LLMs cap out at "capable of reliably acting as an expert level assistant in most knowledge work fields" I think we haven't even begun to see what impact that will have long-term. Especially if the argument in the position paper [[https://arxiv.org/abs/2506.02153][Small Language Models are The Future of Agentic AI]] holds true and that we will move towards /smaller/ tool-using models for our day-to-day needs, making deployment far easier and cheaper and within the grasp of the average person with a laptop or a phone.
+
+I fear I must raise the specter of "super-intelligence" again, that we will invent AI capable not just of keeping up with experts but that experts cannot keep-up-with when acting in its full-capacity. It's a strange and intimidating prospect and not one I'm really going to talk about here, because I think if this /actually/ happens the world will be so strange and alien nothing I say will have predictive power and it's just going to muddy the water.
+
+The last thing I need to talk about is the existence of open source/open weight models. From the perspective of a researcher there's actually a pretty big difference between those two things: "open source" means everything is available to replicate the creation of the model, "open weight" merely means the final product of the model training has been made productively available. I'm going to encompass both terms by just calling either way "open models".
+
+Open models are, almost universally, behind the big private labs like Anthropic or OpenAI. They're made with fewer resources and researchers using less data and compute. On the other hand, they are
+  + freely available
+  + often small enough to run on a laptop or, in some cases, a phone
+  + still capable in their own right!
+
+Open models often represent a different /kind/ of scientific advancement, one where researchers learn how to do more with less and improve the efficiency of these artifacts. So while I say that open models are /lagging/ it's not by as much as you'd think: often six to nine months behind in capability, with occasional jumps forward like when DeepSeek released their own reasoning model that was actually pretty competitive with OpenAI's original reasoning model o1 with only a four month gap in between.
+
+I do not actually have evidence for this but I will make an argument from the history of technology that even /if/ we were to hit a ceiling of what LLM-based systems can do there will be at least a year or two of the open models community catching up, refining their work, and miniaturizing it. 
+
+So for the sequel let's assume that all AI systems are going to continue on a track of "extremely good at a wide variety of tasks, but not superhuman, and with some Jagged Frontier weaknesses" and a safe assumption that smaller, open source, models will lag a generation or two behind the largest labs. 
+** How does this affect higher education?
+So given all of this, where does AI fit into higher-education? Or, to phrase this in a far scarier way, where does higher-education fit into a world with easy access to reliable generally expert-level AI?
+
+To answer this, we have to decide /what/ the college and university are truly for, at a philosophic level. 
+
+There is no provably correct answer here, but I'm going to argue for one specifically: the most irreplaceable thing higher education teaches are epistemic, metacognitive, collaborative skills.
+
+Any person, if they already /have/ those skills can be an autodidact and teach themselves essentially any topic. That isn't to say that an autodidact won't benefit from higher education: I argue that they'll benefit even more from /having/ those skills because they will climb the scaffolding faculty and peers have made for them faster.
+
+[ draft notes]
+
+[ I'm trying to figure out how to make this argument: basically that if knowledge work is going to be automated then carefulness and cleverness is going to be even more important, the other side of a force-multiplier is that you have to have far better /technique/. The other argument I want to be making here is that agents are going to inherently make it easier to engage in collaboration between far disparate understandings and specialties. I think the age of the specialist is now over as in five years we'll all be expected to be able to access huge amounts of information in our grasp and integrate it laterally. The thing that these tools cannot, truly, provide is the experience of the lifeworld, the lebenswelt as Husserl called it, that grounds all of us. These tools function, at least in the near future, are not able to act entirely without us but are, in fact, our collaborators. We have the actual experience needed to form new abstractions feasibly. Abstraction and generalization are the hardest cognitive tasks: for us and for the machine. Our experience in the world, drawing from diverse constantly-on sensory experience and social interaction is what makes us still very different from all known architectures of machine learning. Nothing learns like us nor as efficiently. We have to use this fact by continuing to have epistemic and metacognitive skills: you need to learn how to evaluate information, build off of it, and integrate it into your current knowledge in novel ways.
+
+So given all of this what is my proposal?
+
+First, we need to emphasize deep work over shallow work. In a world with AI-assistants we need to ask /more/ of students rather than asking for the same level of work and have anxiety over cheating. Make non-fictional writing require even more resources and in-depth research. Raise the bar for fiction and poetry given how well these tools function as editors making suggestions, ask for more polished writing turned in more frequently, with deeper analysis of their peers' work. Ask for truly difficult calculations rather than worksheets of a thousand repetitions of the same trigonometric formulae. We too can use these tools to help us evaluate student work, not as autograders but as assistants that tell us if we missed something, a second opinion that can help with "norming" evaluation of this more complicated work. If you ask for dozens of citations, let the machine do a first pass of retrieving those citations and doing a gut-check if they actually are relevant to the work.
+
+Second, we need to encourage interdisciplinary collaboration between departments and programs. The isolated, siloed, nature of academic work has long been a problem but now we have the tools to overcome it: (there's a citation I need related to people being able to work in unfamiliar areas effectively with AI, I think Ethan linked to it at some point, so find it)
+]
+* Footnotes
+
+[fn:1] Not yet, at least, and it's an open question of whether or not they will be. My completely unfounded gut instinct is that LLMs as they currently exist may become terrifyingly powerful but will not reach something approaching autonomous improving mind, not without another breakthrough in architecture.
