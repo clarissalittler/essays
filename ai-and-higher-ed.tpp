@@ -3,7 +3,12 @@
 --date today
 
 --newpage
---heading What are we going to talk about?
+--heading The motivating question
+
+Rather than asking how students can meet our existing assessment, we need to ask what --b we --/b  offer students in a world of auto-didactic tools?
+
+--newpage
+--heading How are we going to get there?
 
  * The current state of LLM and LLM-agents
  * Where the technology is likely to go in the next few years
@@ -96,11 +101,7 @@ Anyone else remember the flood of "courses" that were going to teach *you*
 how to turn Chat GEE PEE TEE into a source of Passive Income!
 
 ---
-But the underlying technology has been changing.
----
---boldon
-Quickly.
---boldoff
+But the underlying technology has been changing. --b Quickly --/b
 
 --newpage
 --heading What changed?
@@ -138,10 +139,8 @@ to being capable of *some* small knowledge-work tasks.
 --newpage
 --heading Tool-use
 
-The other major development that has massively extended LLM capability is
---boldon
+The other major development that has massively extended LLM capability is --b tool use. --/b
 tool use.
---boldoff
 
 ---
 LLMs can now choose to call and use other programs while they work and,
@@ -205,10 +204,7 @@ from seconds in 2019 to multiple hours as of late 2025.
 
 ---
 We can quibble with the methodology and how exactly this should be measured,
-but what we can't deny is that
---boldon
-this doubling time is a measurable effect.
---boldoff
+but what we can't deny is that --b this doubling time is a measurable effect. --/b
 
 --newpage
 --heading What's the anecdata?
@@ -240,6 +236,11 @@ an annotated bibliography.
 The most powerful frontier models *very rarely* make mistakes doing this.
 
 Possibly better than human baseline.
+
+--newpage
+--heading Story-time: Fort Le John
+
+Okay so here's where I get personal and explain the story of my partner trying to piece together a childhood memory
 
 --newpage
 --heading So why the memes?
@@ -321,22 +322,38 @@ Books changed human cognition forever.
 Neal Postman loved writing about this point.
 
 --newpage
+--heading The tools we use to write shape our thoughts
+
+--newpage
+--heading 
+
+--newpage
 --heading Merleau-Ponty on tools and the body
 --withborder
 
 --## TODO: Add content about Merleau-Ponty's phenomenology of tool use
 
 --newpage
---heading What does higher-education offer?
+--heading What is the purpose of higher-education?
 --withborder
 
---## TODO: Add content
+ There are many possible answers. Here's mine:
+---
+ The purpose of higher-education is to inculcate students into practices of reasoning, metacognitive skills, and epistemic practices: frequently with a speciality into the specific epistemic practices and evidential criterion of a particular field
+
+--newpage
+--heading ...okay?
+--withborder
+ My high-falutin' expression has a point! We're not here to:
+ * Ensure you get a job (although these skills make you more employeable)
+ * Act as 
 
 --newpage
 --heading Epistemic skills
 
 --## TODO: include information about how the ability to synthesize
 --## and validate information is more powerful than ever
+
 
 --newpage
 --heading Questions?
