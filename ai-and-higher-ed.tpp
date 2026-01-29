@@ -11,7 +11,7 @@ Rather than asking how students can meet our existing assessment, we need to ask
 --heading How are we going to get there?
 
  * The current state of LLM and LLM-agents
- * Where the technology is likely to go in the next few years
+ * How to frame using an LLM
  * What a hypothetical cyborg student can do
  * What a hypothetical cyborg student thus needs
  * How do we meet those needs?
@@ -176,26 +176,39 @@ No! People learned new tricks and techniques from the machine and improved --b t
 We build off of our tools even when those tools can do things we can't!
 --newpage
 --heading What is the cyborg student? The philosophic framework
+  We're going to extended the Extended Mind thesis of Clark and Chalmers
 
-  We're going to combine the Extended Mind thesis of Clark and Chalmers with a phenomenology tinged 
-
-  All tools change your cognition
-
-  Side-step the "student work vs. AI work" false dichotomy
-
-  The cyborg student uses LLM/agentic systems (or their successors) as part of cognition
+  The original insight tools are a part of your cognition: your notebook that's handy functions as a memory, tools that allow you to calculate or visualize extend your cognitive capabilities in those directions.
 --newpage
---heading Philosophic interlude
- * Phenomenological horizon via Merleau-Ponty
- * (for my mathematicians) like a fiber bundle
- * Tools are integrated into the body by changing the horizon
- * You need to know something is possible to know it's possible
+--heading Cyborg cognition
+ While prior technology extends cognition and perception in a way that's extending the individual actions that cognition can take, in some sense changing what "a thought" can do/access, the modern LLM adds a new extension to mind: hybrid --b thoughts --/b
 --newpage
---heading LLMs from this perspective
+--heading Cyborg cognition
  The LLM isn't a separate entity you ask questions of, it is a kind of collaborative thinking device that you split your intentionality into a new kind of multitasking and task-automation. Like a mind wandering, the agentic system ponders, tries, imagines and reflects back into the linguistic reflective consciousness.
 --newpage
 --heading In other words...
  You are the thing that thinks, the thing that directs, but thinking looks weirder and more complicated now
+--newpage
+--heading The consequences of hybrid cognition
+ * You are not asking an authority
+ * You are thinking
+ * You are experimenting
+ * You are pondering
+ * You are learning
+--newpage
+--heading Learning in a hybrid cognition
+ * The machine is never a primary source of knowledge
+ * It can be a source of insight that needs to be validated and checked
+ * It can be a part of an act of intuition
+--newpage
+--heading Example: kinds of reading
+  From "How to Read a Book":
+  * inspectional
+  * analytical
+  * synoptical
+--newpage
+--heading Intersubjectivity and validation
+
 --newpage
 --heading What does the cyborg student do?
   When needed the cyborg student can use their tools to:
