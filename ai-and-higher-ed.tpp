@@ -30,7 +30,6 @@ We are --b not--/b dealing with the question of "should students use chatgpt.com
 
 --newpage
 --heading Environmental impact
-
 The environmental impacts of hyperscale datacenters are almost entirely
 knock-on effects of the power infrastructure surrounding them:
 
@@ -42,6 +41,7 @@ knock-on effects of the power infrastructure surrounding them:
  * But this is not *how* LLMs have to be made
  * They can be made with a properly purchased or public domain corpus
  * They can be open source and free
+ * Sometimes they're small enough to live on your computer!
 --newpage
 --heading Ethics and behavior
  * LLMs can be made to value democratic, pro-social, ideals (in many ways, this is nearly the default case!)
@@ -67,11 +67,9 @@ LLMs *were* bad at many things for the first year, year and a half
 after the original ChatGPT (GPT 3.5).
 
 Essentially they were toys and a lot of people were overhyping their abilities.
-
 ---
 Anyone else remember the flood of "courses" that were going to teach *you*
 how to turn Chat GEE PEE TEE into a source of Passive Income!
-
 ---
 But the underlying technology has been changing.--b Quickly --/b
 
@@ -145,111 +143,41 @@ These are generally called "agents" / "agentic AI" / "LLM-agents" or similar.
  * If we count wins-and-ties, produced acceptable work
    closer to two-thirds of the time
 
---## --newpage
---## --heading METR and the horizon of tasks
-
---## The other way we're measuring the ability for LLMs to work on tasks
---## is the work done by METR, trying to measure the long-horizon
---## in human-equivalent terms of the tasks LLMs can handle reliably.
-
---## ---
---## They've been charting an exponential curve where the doubling-time
---## has been roughly every seven months, with task lengths progressing
---## from seconds in 2019 to multiple hours as of late 2025.
-
---## ---
---## We can quibble with the methodology and how exactly this should be measured,
---## but what we can't deny is that --b this doubling time is a measurable effect. --/b
-
---## --newpage
---## --heading What's the anecdata?
-
---## So this is where we go beyond benchmarks to personal experience:
-
---## ---
---## Agentic systems like Claude Code, which gives Anthropic's Claude series
---## of models the ability to use a customizable set of tools on your own computer,
---## can run for twenty, thirty, forty minutes at a time.
-
---## ---
---## These agents will explore ideas, see if they work,
---## re-evaluate what they've done, and keep working.
-
---## ---
---## --center I'm not going to lie it feels a little spooky to watch
-
 --newpage
 --heading Story-time: Fort Le John
 
 Okay so here's where I get personal and explain the story of my partner trying to piece together a childhood memory
-
+ * They were trying to find the name of a bathroom at Six Flags Magic Mountain that had made their mother laugh
+ * They thought it might have "John" in it
+ * They had been looking on maps but couldn't find anything
+ * Google was proving useless
 --newpage
---heading So why the memes?
+--heading Fort Le John: The exciting conclusion
+ * GPT-5.0:
+   * Searched the web
+   * Got distracted by whether "John" could have something to do with "Michigan J. Frog"
+   * Noted that it got distracted
+   * Found a travel blog that mentioned a bathroom named "Fort Le John"
+   * Found a YouTube video of a visit to Magic Mountain where the transcript mentioned them passing Fort Le John
+   * Considered that confirmation and returned the name and explained how it found it
 
-If these systems are so powerful, why are there so many memes
-and screenshots about how bad they are?
-
----
- * Some of those are fake
----
- * Some are out of date
----
- * Some are of models that are not very good
-   (AI Overview I'm looking at you)
-
---## --newpage
---## --heading In summary
---## --withborder
-
---## --boldon
---## Important Lesson #1:
---## --boldoff
---## Not all models are equal
---## ---
---## --boldon
---## Important Lesson #2:
---## --boldoff
---## The underlying technology is changing rapidly
---## ---
---## --boldon
---## Important Lesson #3:
---## --boldoff
---## LLM-agents can already accomplish a subset of real
---## knowledge work in ways that are human expert competitive
-
---## ---
---## --boldon
---## Important Lesson #4:
---## --boldoff
---## You must constantly re-evaluate limitations
-
---## ---
---## --horline
---## --ulon
---## Petty Lesson #1:
---## --uloff
---## Don't trust anyone's word if they don't specify
---## the model they're talking about
 --newpage
 --heading Where are we going?
  * The technology isn't really slowing down
  * There probably is a ceiling
  * But we don't know where it is
----
- * Probably not a super-intelligence though
---## --newpage
---## --heading Wait, but what about super-intelligence?
---## If we somehow actually do invent a machine-god, the world will be so weird none of the rest of this talk will matter. So we're going to ignore the hyper-sci-fi possibility.
 --newpage
---heading Does this mean human work is pointless?
-Did chess programs destroy competitive chess?
+--heading Addressing an anxiety: what if the machine gets better than us?
+ * Did chess programs destroy competitive chess?
+ * Did TASBot eliminate real-time speedrunning?
 
-Did TASBot eliminate real-time speedrunning?
+No! People learned new tricks and techniques from the machine and improved --b themselves--/b!
 
+We build off of our tools even when those tools can do things we can't!
 --newpage
---heading What is the cyborg student?
+--heading What is the cyborg student? The philosophic framework
 
-  We're going to adopt the framework of extended mind, first articulated by Clark and Chalmers
+  We're going to combine the Extended Mind thesis of Clark and Chalmers with a phenomenology tinged 
 
   All tools change your cognition
 
