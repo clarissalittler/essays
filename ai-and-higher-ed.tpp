@@ -24,7 +24,7 @@ Rather than asking how students can meet our existing assessment, we need to ask
 
 ---
 This talk is on the science and engineering of LLMs
-and how they can/should impact higher-education.
+and how they can/should impact higher-education and knowledge work
 ---
 We are --b not--/b dealing with the question of "should students use chatgpt.com"
 
@@ -45,7 +45,7 @@ knock-on effects of the power infrastructure surrounding them:
 --newpage
 --heading Ethics and behavior
  * LLMs can be made to value democratic, pro-social, ideals (in many ways, this is nearly the default case!)
- * ...or they can be made to start calling themselves mechahitler (again, thank you xAI for the example)
+ * ...or they can be forced to start calling themselves mechahitler (again, thank you xAI for the example)
 
 --newpage
 --heading In defense of the machine
@@ -83,14 +83,6 @@ There are two major things that changed:
 --boldoff
 
 --newpage
---heading Reasoning?!
---withborder
-
---center Caveat: there are ways we have to talk about these things
---center that are going to sound anthropomorphizing.
---center There's not really a good way around that. This tech is weird.
-
---newpage
 --heading Reasoning
 
 In LLM research "reasoning" is the ability to generate an "internal monologue",
@@ -99,7 +91,7 @@ that the LLM reflects on before finalizing its response.
 
 ---
 Having this "scratch pad" of thought massively improves
-LLM reliability in mathematics, programming, and logical reasoning.
+LLM reliability in mathematics, programming, and logical reasoning & planning
 
 ---
 It's still, by itself, a limited trick: it takes LLMs from toys
@@ -107,7 +99,6 @@ to being capable of *some* small knowledge-work tasks.
 
 --newpage
 --heading Tool-use
-
 The other major development that has massively extended LLM capability is --b tool use. --/b
 ---
 LLMs can now choose to call and use other programs while they work and,
@@ -122,20 +113,17 @@ So an LLM can:
 
 --newpage
 --heading LLM-agents
-
 The current state of the art is not just an LLM chatbot,
 but an LLM equipped with a large set of tools it can use
 and the infrastructure to take repeated action "on its own"
 in order to solve a goal.
-
 --horline
-
 These are generally called "agents" / "agentic AI" / "LLM-agents" or similar.
 
 --newpage
 --heading What can agents do? GDPVal
  * GDPVal measures the ability of LLMs to accomplish a wide-range
-   of tasks that experts in knowledge-work fields have chosen
+   of day-length knowledge work tasks chosen by experts: ranging in fields from nursing, to IT, to sales, to real estate, to law
 ---
  * As of early January 2026, the top frontier models produced work
    preferred by human experts in blind judging ~50% of the time
@@ -159,15 +147,24 @@ Okay so here's where I get personal and explain the story of my partner trying t
    * Noted that it got distracted
    * Found a travel blog that mentioned a bathroom named "Fort Le John"
    * Found a YouTube video of a visit to Magic Mountain where the transcript mentioned them passing Fort Le John
-   * Considered that confirmation and returned the name and explained how it found it
-
+   * Considered that confirmation and returned the name and explained how it found it, with references
+--newpage
+--heading Story-time: Lists of Pokemon
+ * For an assignment I was giving I needed a csv file of Pokemon with stats in a specific way
+ * I asked o3 to do this and it:
+ * Found the online fan-run database for Pokemon stats
+ * Examined the API
+ * Noted the rate limits
+ * Wrote a Python script for me to run to build the csv
 --newpage
 --heading Where are we going?
  * The technology isn't really slowing down
  * There probably is a ceiling
  * But we don't know where it is
+ * But even a slight improvement in GDPVal would mean that for a lot of tasks it would be irresponsible to *not* use the LLM to either do or double-check the work 
 --newpage
 --heading Addressing an anxiety: what if the machine gets better than us?
+ * LLMs can automate --b tasks--/b not entire kinds of work and inquiry
  * Did chess programs destroy competitive chess?
  * Did TASBot eliminate real-time speedrunning?
 
@@ -200,6 +197,7 @@ We build off of our tools even when those tools can do things we can't!
  * The machine is never a primary source of knowledge
  * It can be a source of insight that needs to be validated and checked
  * It can be a part of an act of intuition
+ * Material to think with
 --newpage
 --heading Example: kinds of reading
   From "How to Read a Book":
@@ -207,75 +205,92 @@ We build off of our tools even when those tools can do things we can't!
   * analytical
   * synoptical
 --newpage
---heading Intersubjectivity and validation
-
+--heading Example: a cyborg reading
+  At each phase the machine can --b aid--/b not --b replace--/b human effort:
+  * inspectional: LLM summaries as an additional layer on top of structured skimming (to be read --b after--/b)
+  * analytical: semi-autonomous fact checking while reading, clarification of difficult passages, additional context research
+  * synoptical: "deep research" investigations building out bibliographies and mapping out the space of engagement
 --newpage
---heading What does the cyborg student do?
-  When needed the cyborg student can use their tools to:
-  * Run deep research queries that run for a half hour or more at a time to study the scholarship landscape
-  * Take photos of their notes and have them formatted into any existing document type
-  * Take photos of books and find scholarship on those passages
-  * Build interactive visualizations of concepts without knowing how to code
-  * Explore datasets in natural language
-  * Query their own personal knowledge base
-  * Receive feedback on their work
-  * Factcheck anything (books, papers, themselves) semi-autonomously
+--heading Example: a cyborg writing
+ * Researching what other people have done
+ * Writing critiques
+ * Logical critiques
+ * Self-fact checking
+ * --b Not--/b drafting
+ * --b Not--/b brainstorming
 --newpage
---heading ...is this really that different?
-  Yes and no
-
-  There isn't new work per-se, but the depth and complexity of work the cyborg student can do is richer
+--heading Example: a cyborg studying
+ * Get surveys of topics and sources to read
+ * Conversationally test understanding, as a kind of thinking aloud
+ * Generating educational scaffolding
+ * Taking hand-written notes and turn them into LaTeX documents
+ * Investigating and visualizing data
+ * But you are the learner, the thing that does and the thing that internalizes
 --newpage
---heading What haven't I said
-  Note I haven't said
-  * "the cyborg student generates first drafts"
-  * "the cyborg student generates their project ideas"
-  * &c.
+--heading This isn't automating away work, it's enabling new kinds of work
+ * It wasn't feasible to fact-check random claims in a book in the middle of reading
+ * It wasn't feasible to do a 400+ paper and book lit-review, even a cursory one, for every idea you have
+ * It wasn't feasible to get an autonomous fact-checking pass of your own writing
+ * It wasn't feasible to get a customized curriculum for a topic
 --newpage
---heading Material to think with
-This is why I emphasize the framing of extended mind and the connection to Merleau-Ponty. LLMs, like computers in general, are material to think --b with--/b.
+--heading But the hybrid thinking never stops being hybrid
+ * We all know how to fact check our normal thoughts
+ * You already have experience with not believing every idea that pops into your head
+ * Or your first skim of a book
+ * Or your memory of quotes
+ * The first code you write
+ * &c.
 
- But --u you are the prime thinker --/u
+--center so what's different?
 --newpage
---heading But what if the machine is wrong?
-  That's a good question: what if?
+--heading The cyborg can do more things: but does it always do them well?
+ * All of this can be an incredible boon if you have the metacognitive skills to use it
+ * But what happens if you don't?
 
-  But that's already something we're supposed to tackle: how to evaluate claims!
-
-  You shouldn't believe every idea you have nor should you  
 --newpage
 --heading The problem with "do your own research"
  What's the actual problem, the reason we wince when we hear "I did my own research"?
+
 --newpage
 --heading The informational collage
- I'm far less afraid of hallucinations, a thing already mitigated by having agents check their work, than I am of how much easier it might be to collage an arbitrary picture of the world
+ I'm far less afraid of hallucinations, a thing already heavily mitigated by having agents check their work, than I am of how much easier it might be to collage an arbitrary picture of the world
 --newpage
---heading The cyborg student needs...
+--heading There is so much information in the world: how do you judge its worth?
+ The machine can help you find information on any topic, any kind of evidence, and it can help judge that evidence but you are the final arbiter
 
+ You must be
+--newpage
+--heading So what does the cyborg student need?
  * Epistemic skills
  * Context
  * Interdisciplinary exposure
- * Actual opportunity for creativity
+ * Practice being a cyborg student
 --newpage
 --heading Epistemic skills
 
- The cyborg student needs to learn how to read research articles, in and --b outside --/b of their expertise
+ The cyborg student needs to learn how to read research articles, in and --b outside--/b of their expertise
 
  The cyborg student needs to learn-how-to-learn
 
  The cyborg student needs a bullshit detector
+
+ The cyborg student needs subject-matter epistemic practice
 --newpage
 --heading Context
-The cyborg student can teach themselves almost any individual skill, but how does the cyborg student know what skills to learn?
+The cyborg student can teach themselves almost any individual skill,
+but how does the cyborg student know what skills to learn?
 --newpage
 --heading Inderdisciplinary exposure
+The cyborg --b can--/b can cross fields easily, but they don't automatically know how to.
+
+The cyborg needs experience with different practices, standards of evidence, and the different ways other fields work
 --newpage
 --heading Opportunities for creativity
-Rote assignments were never good. We all know this.
+If the cyborg student can do more and weirder work, the only way they can learn to do it well is by trying it and having human feedback
 
-But when digital assistants make the rote trivial, with no creative outlet, it's difficult to ask the cyborg student to take the assignment seriously
 --newpage
 --heading What do we recommend?
+ A lot of this comes down to things we already know we need to do, but with more urgency
 
  * Explicit practice with reading articles and evaluating them, building a bullshit detector
  * Process journaling
@@ -287,20 +302,25 @@ But when digital assistants make the rote trivial, with no creative outlet, it's
 
 --newpage
 --heading Process journaling
- It's okay for students to use AI!
 
- But they have to provide a "lab book" of how it's used, what was their own work and ideas, along with their work.
+ The cyborg student needs a "lab book" of how LLMs and agents are used
 
- The cognitive-process is what's being assessed
+ Analyzing the hybrid-cognitive process of the student needs to be part of assessment
 --newpage
 --heading Personal knowledge management
+Since a cyborg student can find so much information we need to teach systems of personal knowledge management.
+
+It can be Obsidian, Notion, a wiki, a notebook.
+
+We need to teach citation management whether it's bibtex or zotero.
+
 --newpage
 --heading Ambitious projects
 The cyborg student needs to be challenged to even know what they can do.
 
-Ethan Mollick at Wharton has really good examples of this.
+Ethan Mollick at Wharton has really good examples of this: the Impossible Assignment and the Vibe Entreprenuership assignment
 --newpage 
---heading How do we meet these needs?
- First step, please try out these tools. Really stress test them. There are skills needed but it's not as simple as "prompt engineering", it's more like the skill of explaining tasks to an assistant.
+--heading What are our next steps?
+ First step, please try out these tools. Really stress test them. There are skills needed but it's not as simple as "prompt engineering", it's a new kind of metacognitive skill
 
  We cannot teach without knowing how it expands our capabilities
