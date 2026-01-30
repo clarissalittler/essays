@@ -23,10 +23,12 @@ Rather than asking how students can meet our existing assessment, we need to ask
 --center Let's get something big out of the way first
 
 ---
+
 This talk is on the science and engineering of LLMs
 and how they can/should impact higher-education and knowledge work
 ---
-We are --b not--/b dealing with the question of "should students use chatgpt.com"
+
+We are--b not--/b dealing with the question of "should students use chatgpt.com"
 
 --newpage
 --heading Environmental impact
@@ -63,14 +65,16 @@ knock-on effects of the power infrastructure surrounding them:
 --newpage
 --heading What can LLMs actually do?
 
-LLMs *were* bad at many things for the first year, year and a half
+LLMs--b were--/b bad at many things for the first year, year and a half
 after the original ChatGPT (GPT 3.5).
 
 Essentially they were toys and a lot of people were overhyping their abilities.
 ---
+
 Anyone else remember the flood of "courses" that were going to teach *you*
 how to turn Chat GEE PEE TEE into a source of Passive Income!
 ---
+
 But the underlying technology has been changing.--b Quickly --/b
 
 --newpage
@@ -99,8 +103,9 @@ to being capable of *some* small knowledge-work tasks.
 
 --newpage
 --heading Tool-use
-The other major development that has massively extended LLM capability is --b tool use. --/b
+The other major development that has massively extended LLM capability is--b tool use.--/b
 ---
+
 LLMs can now choose to call and use other programs while they work and,
 in fact, can integrate these tools into their own chain-of-thought.
 --newpage
@@ -118,17 +123,23 @@ but an LLM equipped with a large set of tools it can use
 and the infrastructure to take repeated action "on its own"
 in order to solve a goal.
 --horline
+
 These are generally called "agents" / "agentic AI" / "LLM-agents" or similar.
 
 --newpage
 --heading What can agents do? GDPVal
- * GDPVal measures the ability of LLMs to accomplish a wide-range
-   of day-length knowledge work tasks chosen by experts: ranging in fields from nursing, to IT, to sales, to real estate, to law
+ * GDPVal measures the ability of LLMs
+  * to accomplish a wide-range of
+  * day-length knowledge work tasks
+  * chosen by experts:
+  * ranging in fields from nursing, to IT, to sales, to real estate, to law
 ---
- * As of early January 2026, the top frontier models produced work
+
+* As of early January 2026, the top frontier models produced work
    preferred by human experts in blind judging ~50% of the time
 ---
- * If we count wins-and-ties, produced acceptable work
+
+* If we count wins-and-ties, produced acceptable work
    closer to two-thirds of the time
 
 --newpage
@@ -161,14 +172,14 @@ Okay so here's where I get personal and explain the story of my partner trying t
  * The technology isn't really slowing down
  * There probably is a ceiling
  * But we don't know where it is
- * But even a slight improvement in GDPVal would mean that for a lot of tasks it would be irresponsible to *not* use the LLM to either do or double-check the work 
+ * But even a slight improvement in GDPVal would mean that for a lot of tasks it would be irresponsible to--b not--/b use the LLM to either do or double-check the work 
 --newpage
 --heading Addressing an anxiety: what if the machine gets better than us?
- * LLMs can automate --b tasks--/b not entire kinds of work and inquiry
+ * LLMs can automate--b tasks--/b not entire kinds of work and inquiry
  * Did chess programs destroy competitive chess?
  * Did TASBot eliminate real-time speedrunning?
 
-No! People learned new tricks and techniques from the machine and improved --b themselves--/b!
+No! People learned new tricks and techniques from the machine and improved--b themselves--/b!
 
 We build off of our tools even when those tools can do things we can't!
 --newpage
@@ -178,10 +189,18 @@ We build off of our tools even when those tools can do things we can't!
   The original insight tools are a part of your cognition: your notebook that's handy functions as a memory, tools that allow you to calculate or visualize extend your cognitive capabilities in those directions.
 --newpage
 --heading Cyborg cognition
- While prior technology extends cognition and perception in a way that's extending the individual actions that cognition can take, in some sense changing what "a thought" can do/access, the modern LLM adds a new extension to mind: hybrid --b thoughts --/b
+ While prior technology extends cognition and perception in a way that's extending the individual actions that cognition can take, in some sense changing what "a thought" can do/access, the modern LLM adds a new extension to mind: hybrid--b thoughts --/b
 --newpage
 --heading Cyborg cognition
- The LLM isn't a separate entity you ask questions of, it is a kind of collaborative thinking device that you split your intentionality into a new kind of multitasking and task-automation. Like a mind wandering, the agentic system ponders, tries, imagines and reflects back into the linguistic reflective consciousness.
+ The LLM isn't a separate entity you ask questions of,
+
+it is a kind of collaborative thinking device that lets you split your intentionality
+
+into a new kind of multitasking and task-automation.
+
+Like a mind wandering, the agentic system ponders, tries, imagines
+
+and reflects back into the linguistic reflective consciousness.
 --newpage
 --heading In other words...
  You are the thing that thinks, the thing that directs, but thinking looks weirder and more complicated now
@@ -206,8 +225,9 @@ We build off of our tools even when those tools can do things we can't!
   * synoptical
 --newpage
 --heading Example: a cyborg reading
-  At each phase the machine can --b aid--/b not --b replace--/b human effort:
-  * inspectional: LLM summaries as an additional layer on top of structured skimming (to be read --b after--/b)
+  At each phase the machine can--b aid--/b not--b replace--/b human effort:
+  * inspectional: LLM summaries as an additional layer on top of structured skimming
+  ** to be read--b after--/b
   * analytical: semi-autonomous fact checking while reading, clarification of difficult passages, additional context research
   * synoptical: "deep research" investigations building out bibliographies and mapping out the space of engagement
 --newpage
@@ -216,8 +236,8 @@ We build off of our tools even when those tools can do things we can't!
  * Writing critiques
  * Logical critiques
  * Self-fact checking
- * --b Not--/b drafting
- * --b Not--/b brainstorming
+ *--b Not--/b drafting
+ *--b Not--/b brainstorming
 --newpage
 --heading Example: a cyborg studying
  * Get surveys of topics and sources to read
@@ -253,12 +273,16 @@ We build off of our tools even when those tools can do things we can't!
 
 --newpage
 --heading The informational collage
- I'm far less afraid of hallucinations, a thing already heavily mitigated by having agents check their work, than I am of how much easier it might be to collage an arbitrary picture of the world
+ I'm far less afraid of hallucinations,
+
+a thing already heavily mitigated by having agents check their work,
+
+than I am of how much easier it might be to collage an arbitrary picture of the world
 --newpage
 --heading There is so much information in the world: how do you judge its worth?
  The machine can help you find information on any topic, any kind of evidence, and it can help judge that evidence but you are the final arbiter
 
- You must be
+--center --b You must be--/b
 --newpage
 --heading So what does the cyborg student need?
  * Epistemic skills
@@ -268,7 +292,7 @@ We build off of our tools even when those tools can do things we can't!
 --newpage
 --heading Epistemic skills
 
- The cyborg student needs to learn how to read research articles, in and --b outside--/b of their expertise
+ The cyborg student needs to learn how to read research articles, in and--b outside--/b of their expertise
 
  The cyborg student needs to learn-how-to-learn
 
@@ -281,7 +305,7 @@ The cyborg student can teach themselves almost any individual skill,
 but how does the cyborg student know what skills to learn?
 --newpage
 --heading Inderdisciplinary exposure
-The cyborg --b can--/b can cross fields easily, but they don't automatically know how to.
+The cyborg--b can--/b can cross fields easily, but they don't automatically know how to.
 
 The cyborg needs experience with different practices, standards of evidence, and the different ways other fields work
 --newpage
@@ -298,7 +322,7 @@ If the cyborg student can do more and weirder work, the only way they can learn 
  * Large ambitious projects mixed with small skills focused work
 --newpage
 --heading Epistemic hygiene (aka bullshit detecting)
- Everyone needs to explicitly be trained on how to read at the edge of their understanding and still be able to tell whether something "sounds right" and also check sources and --b their--/b sources &c.
+ Everyone needs to explicitly be trained on how to read at the edge of their understanding and still be able to tell whether something "sounds right" and also check sources and--b their--/b sources &c.
 
 --newpage
 --heading Process journaling
@@ -318,9 +342,18 @@ We need to teach citation management whether it's bibtex or zotero.
 --heading Ambitious projects
 The cyborg student needs to be challenged to even know what they can do.
 
-Ethan Mollick at Wharton has really good examples of this: the Impossible Assignment and the Vibe Entreprenuership assignment
+Ethan Mollick at Wharton has really good examples of this:
+
+the Impossible Assignment and the Vibe Entrepreneurship assignment
 --newpage 
 --heading What are our next steps?
- First step, please try out these tools. Really stress test them. There are skills needed but it's not as simple as "prompt engineering", it's a new kind of metacognitive skill
+First step, please try out these tools.
 
- We cannot teach without knowing how it expands our capabilities
+Really stress test them.
+
+There are skills needed but it's not as simple as "prompt engineering", it's a new kind of metacognitive skill
+
+We cannot teach without knowing how it expands our capabilities
+--newpage
+--heading Questions?
+
