@@ -1,4 +1,4 @@
---author Clarissa The Adjoint
+--author Clarissa
 --title What can we teach the cyborg student?
 --date today
 
@@ -39,7 +39,7 @@ knock-on effects of the power infrastructure surrounding them:
  * Dirty and inefficient (like xAI's methane generators) have massive impact
 --newpage
 --heading Ethics and ownership
- * You could argue that private labs making LLMs with data they haven't paid for is enclosure
+ * Can argue that private labs making LLMs with unlicensed public data is enclosure
  * But this is not *how* LLMs have to be made
  * They can be made with a properly purchased or public domain corpus
  * They can be open source and free
@@ -90,7 +90,9 @@ There are two major things that changed:
 --heading Reasoning
 
 In LLM research "reasoning" is the ability to generate an "internal monologue",
+
 a chain-of-thought as it's called in the literature,
+
 that the LLM reflects on before finalizing its response.
 
 ---
@@ -100,7 +102,6 @@ LLM reliability in mathematics, programming, and logical reasoning & planning
 ---
 It's still, by itself, a limited trick: it takes LLMs from toys
 to being capable of *some* small knowledge-work tasks.
-
 --newpage
 --heading Tool-use
 The other major development that has massively extended LLM capability is--b tool use.--/b
@@ -168,6 +169,16 @@ Okay so here's where I get personal and explain the story of my partner trying t
  * Noted the rate limits
  * Wrote a Python script for me to run to build the csv
 --newpage
+--heading A plethora of li'l guys
+ * Agents can use your computer
+  * For making software
+  * For making curricula
+  * For organizing
+  * For searching
+  * For scheduling
+---
+ We really need to talk about openclaw, huh?
+--newpage
 --heading Where are we going?
  * The technology isn't really slowing down
  * There probably is a ceiling
@@ -186,10 +197,18 @@ We build off of our tools even when those tools can do things we can't!
 --heading What is the cyborg student? The philosophic framework
   We're going to extended the Extended Mind thesis of Clark and Chalmers
 
-  The original insight tools are a part of your cognition: your notebook that's handy functions as a memory, tools that allow you to calculate or visualize extend your cognitive capabilities in those directions.
+  The original insight is tools are a part of your cognition:
+
+  your notebook that's handy functions as a memory,
+
+  tools that allow you to calculate or visualize extend your cognitive capabilities in those directions.
 --newpage
 --heading Cyborg cognition
- While prior technology extends cognition and perception in a way that's extending the individual actions that cognition can take, in some sense changing what "a thought" can do/access, the modern LLM adds a new extension to mind: hybrid--b thoughts --/b
+ While prior technology extends cognition and perception in a way that extends the individual actions that cognition can take,
+
+in some sense changing what "a thought" can do/access,
+
+the modern LLM adds a new extension to mind: hybrid--b thoughts --/b
 --newpage
 --heading Cyborg cognition
  The LLM isn't a separate entity you ask questions of,
@@ -203,7 +222,11 @@ Like a mind wandering, the agentic system ponders, tries, imagines
 and reflects back into the linguistic reflective consciousness.
 --newpage
 --heading In other words...
- You are the thing that thinks, the thing that directs, but thinking looks weirder and more complicated now
+ You are the thing that thinks,
+
+the thing that directs,
+
+but thinking looks weirder and more complicated now
 --newpage
 --heading The consequences of hybrid cognition
  * You are not asking an authority
@@ -213,10 +236,10 @@ and reflects back into the linguistic reflective consciousness.
  * You are learning
 --newpage
 --heading Learning in a hybrid cognition
- * The machine is never a primary source of knowledge
+ * Material to think with
  * It can be a source of insight that needs to be validated and checked
  * It can be a part of an act of intuition
- * Material to think with
+ * It is not a source of objective but inter-subjective knowledge
 --newpage
 --heading Example: kinds of reading
   From "How to Read a Book":
@@ -309,7 +332,7 @@ The cyborg--b can--/b can cross fields easily, but they don't automatically know
 
 The cyborg needs experience with different practices, standards of evidence, and the different ways other fields work
 --newpage
---heading Opportunities for creativity
+--heading Practice and more practice
 If the cyborg student can do more and weirder work, the only way they can learn to do it well is by trying it and having human feedback
 
 --newpage
@@ -347,13 +370,21 @@ Ethan Mollick at Wharton has really good examples of this:
 the Impossible Assignment and the Vibe Entrepreneurship assignment
 --newpage 
 --heading What are our next steps?
-First step, please try out these tools.
+First, please try out these tools.
 
 Really stress test them.
 
 There are skills needed but it's not as simple as "prompt engineering", it's a new kind of metacognitive skill
 
-We cannot teach without knowing how it expands our capabilities
+I'm--b not--/b saying that you need to use this technology in your day-to-day,
+
+but you need a good mental model of what epistemic/metacognitive skills are needed
+
+--newpage
+--heading What aren't our next steps?
+ Returning to hand-written in-person assessment
+
+ Treating students like adversaries
 --newpage
 --heading Questions?
 
