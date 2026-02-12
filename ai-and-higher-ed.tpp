@@ -245,14 +245,14 @@ but thinking looks weirder and more complicated now
   From "How to Read a Book":
   * inspectional
   * analytical
-  * synoptical
+  * syntopical
 --newpage
 --heading Example: a cyborg reading
   At each phase the machine can--b aid--/b not--b replace--/b human effort:
   * inspectional: LLM summaries as an additional layer on top of structured skimming
   ** to be read--b after--/b
   * analytical: semi-autonomous fact checking while reading, clarification of difficult passages, additional context research
-  * synoptical: "deep research" investigations building out bibliographies and mapping out the space of engagement
+  * syntopical: "deep research" investigations building out bibliographies and mapping out the space of engagement
 --newpage
 --heading Example: a cyborg writing
  * Researching what other people have done
